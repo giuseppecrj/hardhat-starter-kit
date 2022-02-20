@@ -15,8 +15,11 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 const config: HardhatUserConfig = {
-	solidity: "0.8.10",
+	solidity: "0.8.9",
 	networks: {
+		hardhat: {
+			chainId: 1337
+		},
 		rinkeby: {
 			url: process.env.RINKEBY_URL || "",
 			accounts:

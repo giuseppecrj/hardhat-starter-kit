@@ -25,19 +25,24 @@
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"ethereum-waffle": "^3.4.0",
-		"ethers": "^5.5.4",
 		"hardhat": "^2.8.4",
 		"hardhat-gas-reporter": "^1.0.8",
+		"html-webpack-plugin": "^5.5.0",
 		"prettier": "^2.5.1",
 		"prettier-plugin-solidity": "^1.0.0-beta.19",
 		"solhint": "^3.3.7",
 		"solhint-plugin-prettier": "0.0.5",
+		"ts-loader": "^9.2.6",
 		"ts-node": "^10.5.0",
 		"typechain": "^7.0.0",
-		"typescript": "^4.5.5"
+		"typescript": "^4.5.5",
+		"webpack": "^5.69.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.7.4",
+		"solidity-coverage": "^0.7.20"
 	},
 	"description": "",
 	"dependencies": {
-		"solidity-coverage": "^0.7.20"
+		"ethers": "^5.5.4"
 	}
 }
