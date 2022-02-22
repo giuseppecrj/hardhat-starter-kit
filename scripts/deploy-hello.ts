@@ -1,6 +1,5 @@
 import "@nomiclabs/hardhat-ethers";
 import { ethers } from "hardhat";
-import { HelloWorld } from "../typechain-types";
 
 async function deploy() {
 	const HelloWorld = await ethers.getContractFactory("HelloWorld");
@@ -9,7 +8,8 @@ async function deploy() {
 	return hello;
 }
 
-async function sayHello(hello: HelloWorld) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+async function sayHello(hello: any) {
 	console.log("Say Hello:", await hello.hello());
 }
 
